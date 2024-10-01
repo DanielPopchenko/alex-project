@@ -14,13 +14,16 @@ const Footer = () => {
 				<span className='mr-2'>
 					<MdEmail fontSize={20} className='transition hover:text-gray-600' />
 				</span>
-				alexander.cleaning@gmail.com
+
+				<a href='mailto:alexander.cleaning@gmail.com'>
+					alexander.cleaning@gmail.com
+				</a>
 			</p>
 			<p className='flex items-center mr-10 text-lg'>
 				<span className='mr-2'>
 					<FaPhone fontSize={20} className='transition hover:text-gray-600' />
 				</span>
-				+9417845466
+				<a href='tel:+1 9417845466'>+1 9417845466</a>
 			</p>
 			<p className='flex items-center mr-10 text-lg'>
 				<span className='mr-2'>
